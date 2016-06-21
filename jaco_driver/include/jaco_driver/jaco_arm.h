@@ -45,11 +45,6 @@ namespace jaco
 //Fingers removed
 static const int     JACO_JOINTS_COUNT = 6;
 
-static const double MAX_JACO_HAND_RAW_VALUE = 7450; //it must be positive
-static const double MIN_JACO_HAND_RAW_VALUE = 0;    //it must be positive
-static const double MAX_JACO_HAND_RAD_VALUE = 3.14159265359/3;  //it must be positive
-static const double MIN_JACO_HAND_RAD_VALUE = 0;    //it must be positive
-
 class JacoArm
 {
  public:
